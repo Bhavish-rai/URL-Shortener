@@ -51,6 +51,8 @@ async function getAnalytics(){
             <p><b>Created:</b> ${new Date(data.createdAt).toLocaleString()}</p>
         `;
 
+
+        
     }else{
 
         document.getElementById("analytics").innerHTML=
