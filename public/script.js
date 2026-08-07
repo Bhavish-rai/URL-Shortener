@@ -26,6 +26,7 @@ async function shortenURL(){
                 ${data.shortUrl}
             </a>
         `;
+        
 
     }else{
 
@@ -34,6 +35,8 @@ async function shortenURL(){
     }
 
 }
+
+
 
 async function getAnalytics(){
 
