@@ -1,6 +1,7 @@
 const API = "http://localhost:5000";
 
 
+
 async function shortenURL(){
 
     const url=document.getElementById("urlInput").value;
@@ -12,6 +13,7 @@ async function shortenURL(){
         headers:{
             "Content-Type":"application/json"
         },
+
 
         body:JSON.stringify({url})
 
