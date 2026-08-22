@@ -37,8 +37,6 @@ async function shortenURL(){
 
 }
 
-
-
 async function getAnalytics(){
 
     const code=document.getElementById("codeInput").value;
@@ -53,10 +51,7 @@ async function getAnalytics(){
             <p><b>Original URL:</b> ${data.originalUrl}</p>
             <p><b>Clicks:</b> ${data.clicks}</p>
             <p><b>Created:</b> ${new Date(data.createdAt).toLocaleString()}</p>
-        `;
-
-
-        
+        `;     
     }else{
 
         document.getElementById("analytics").innerHTML=
